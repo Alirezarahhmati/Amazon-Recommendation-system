@@ -6,19 +6,19 @@ Course : Data Science Name : Alireza Rahmati
 
 In the era of vast online marketplaces, creating effective recommendation systems is a paramount challenge to enhance user experience and engagement. This project focuses on constructing two distinct recommendation systems, namely content-based and user-based, for a dataset comprising approximately 2 million records from an online retail platform.
 
-Challenges:
+### Challenges:
 
 The primary challenges encompass the sheer scale of the dataset, necessitating scalable and efficient algorithms, and the absence of explicit user-item interactions, prompting the exploration of content-based approaches. The goal is to provide users with personalized product recommendations, addressing the inherent complexities of diverse product categories and user preferences.
 
-Approach:
+### Approach:
 
 To address these challenges, a two-fold strategy is employed. The content-based recommendation system leverages a product's textual descriptions and features, utilizing TF-IDF and dimensionality reduction with TruncatedSVD. Simultaneously, the user-based recommendation system tackles the collaborative filtering problem by implementing Singular Value Decomposition (SVD) on the extensive user-item interaction matrix.
 
 This report delineates the technical intricacies and methodologies undertaken to implement these recommendation systems, offering insights into the algorithms, preprocessing steps, and evaluation metrics employed to quantify the performance of each model.
 
-Collaborative Recommendation System
+## Collaborative Recommendation System
 
-Preprocessing
+### Preprocessing
 
 At the outset, our initial exploration focused on understanding our dataset. We aimed to identify the available columns, examine the data types, and comprehend the information conveyed by each feature. Subsequently, we conducted feature cleaning, addressing missing values and duplicates. In the following phase, we engaged in feature engineering to enhance the quality of our dataset.
 
@@ -96,7 +96,7 @@ B00121UVU0 1838
 
 B000FS05VG 1589
 
-Collaborative Recommendation System Algorithm
+### Collaborative Recommendation System Algorithm
 
 In this phase, we dived into the realm of building a recommendation algorithm and assessing the effectiveness of our system. Our initial steps included encoding user and product identifiers (UserId and ProductId) using LabelEncoder and scaling the rating data using MinMaxScaler. However, our journey encountered a significant hurdle: our dataset boasts a whopping 2 million entries, which proved to be a formidable challenge given our limited memory resources.
 
@@ -128,7 +128,7 @@ However, addressing the missing values in the 'rating' feature required a differ
 
 There are no duplicate values in this dataset.
 
-Text Preprocessing
+### Text Preprocessing
 
 In the text preprocessing phase, we meticulously transformed raw product descriptions into a format suitable for machine learning algorithms. This involved several key steps:
 
