@@ -1,8 +1,8 @@
-﻿Amazon Recommendation System
+# ﻿Amazon Recommendation System
 
-Course : Data Science Name : Alireza Rahmati Student Id : 400222038
+Course : Data Science Name : Alireza Rahmati
 
-Introduction:
+## Introduction:
 
 In the era of vast online marketplaces, creating effective recommendation systems is a paramount challenge to enhance user experience and engagement. This project focuses on constructing two distinct recommendation systems, namely content-based and user-based, for a dataset comprising approximately 2 million records from an online retail platform.
 
